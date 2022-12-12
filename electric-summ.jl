@@ -160,8 +160,7 @@ for x in 1:7, y in 1:24
 		string.(num),
 		position=(x,y),
 		align=(:center, :center),
-		color=ifelse.(num < 2000, :white, :black),
-		textsize=14
+		color=ifelse.(num < 4000, :white, :black),
 	)
 end
 
